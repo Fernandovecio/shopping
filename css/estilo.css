@@ -1,0 +1,90 @@
+body {
+color: blue;
+background-color: rgb(12, 211, 145);
+font-family: 'Times New Roman', Times, serif;
+}
+.mainnav{
+background-color: rgb(2, 177, 168);
+color: black;
+margin-bottom: 5%;
+padding: 0 2%;
+margin-top: 5%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainnav li{
+display: inline;
+padding: 0 0,5%;
+margin-left: 8%;
+}
+.mainnav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.mainnav li a:hover{
+    color: aliceblue;
+}
+.contents{
+float: left;
+width: 55%;
+margin: 0 0 0 10px;
+margin-left: 8%;
+}
+.contents p{
+text-align: justify;
+}
+.imgpri{
+margin-left: 1%;
+margin-bottom: 15px;
+}
+
+.footer{
+    clear: both;
+    background-color: rgb(2, 177, 168);
+    color: black;
+    padding: 5px;
+    text-align: right;
+    font-weight: bold;
+}
+.header{
+    position: relative;
+    margin-bottom: 1%;
+
+}
+.header h2{
+    position: relative;
+    margin-left: 8%;
+    margin-top: 3%;
+    font-size: 30px;
+}
+.logo{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.menul {
+    float: right;
+    width: 32%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.grupo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 60%;
+    
+}
+.maior{
+    font-size: 16px;
+    width: 300px;
+    resize: none;
+}
+.grupo input,select,textarea {
+    background-color:  rgb(46, 224, 165);
+}
+.grupo input:focus, select:focus, textarea:focus{
+    background-color: rgb(255, 255, 255);
+}
